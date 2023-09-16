@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <div style="margin: 40px;">
+            <h1>Bài 1</h1>
+            <div>
+                <h1>Nhập 2 số a và b</h1>
+            </div>
+            <div style="display: flex;">
+                <p>a:  </p>
+                <input id="soA" class="form-inline" type="number">
+                <p>b:  </p>
+                <input id="soB" class="form-inline" type="number">
+                <button onclick="timsochinhphuong()">Click me</button>
+
+                <div id="results"></div>
+            </div>
+        </div>
+        
+
+
+        <div style="margin: 40px;">
+            <h1>Bài 2</h1>
+            <p style="margin-bottom: 20px;">Color Picker</p>
+
+            <span class="color-picker">
+                <label for="colorPicker">
+                    <input type="color" value="#1DB8CE" id="colorPicker">
+                </label>
+            </span>
+
+        </div>
+
+
+
+        <div>
+            <h1>Bài 3</h1>
+        </div>
+        <div id="bai3">
+            <div id="header">
+                <div class="header">
+                    <div>
+                        <ul class="headList">
+                            <li>
+                                <a style="font-size: 25px;
+                                font-weight: 500;" href="#">Sapphire</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="#">Explore</a>
+                            </li>
+                            <li class="listItem">
+                                <a  href="#">Marketplace</a>
+                            </li>
+                            <li class="listItem">
+                                <a  href="#">Artist</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="#">Collection</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <form class="form-inline">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn" type="submit">SIGN IN</button>
+                    </form>
+                </div>  
+                <div class="container body">
+                    <div class="info">
+                        <div class="infoText">
+                            <h1>Discover & Collect Rare NFTs</h1>
+                            <h4>Digital Marketplace for crypto Collections and non-fungible tokens (NFTs)</h4>
+                            <button class="btn-ifo">Discover Now</button>
+                        </div>
+
+                        <div id="infoRow" class="row">
+                            <div class="col">
+                                <h2>35k+</h2>
+                                <h5>Artworks</h5>
+                            </div>
+                            <div class="col">
+                                <h2>15k+</h2>
+                                <h5>Auctions</h5>
+                            </div>
+                            <div class="col">
+                                <h2>25k+</h2>
+                                <h5>Artists</h5>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="image">
+                        <img src="image 1.png" alt="Monkey Img">
+                        <div class="bottom">
+                            <div class="bottomText">Money Apes</div>
+                            <div class="bottomImg">
+                                <div>
+                                    <a href="Ellipse 1.svg">
+                                        <img src="image 1.png" alt="hinh1">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="Ellipse 2.svg">
+                                        <img src="image 2.png" alt="hinh2">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="Ellipse 3.svg">
+                                        <img src="Ellipse 3.png" alt="hinh1">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="Ellipse 4.svg">
+                                        <img src="Ellipse 4.png" alt="hinh1">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="Ellipse 5.svg">
+                                        <img src="Ellipse 5.png" alt="hinh1">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="imageRow" class="row">
+                            <div id="rowText" class="col">
+                                <h5>Current Bid</h5>
+                                <h4>0.45 ETH</h4>
+                            </div>
+                            <div id="rowText" class="col">
+                                <h5>Current Bid</h5>
+                                <h4>900 Authors</h4>
+                            </div>
+                            <div id="rowText" class="col">
+                                <h5>Ending in</h5>
+                                <h4>10h 43m 26s</h4>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="footer">
+                        <img src="footer 1.png" alt="">
+                        <img src="footer 2.png" alt="">
+                        <img src="footer 3.png" alt="">
+                        <img src="footer 4.png" alt="" srcset="">
+                    </div>
+                    
+                        
+                    
+                </div>
+            </div>
+                
+                      
+                
+            
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+</html>
